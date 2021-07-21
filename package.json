@@ -9,11 +9,15 @@
   },
   "dependencies": {
     "@aws-amplify/ui-vue": "^0.2.34",
+    "@braid/vue-formulate": "^2.5.2",
     "aws-amplify": "^3.0.12",
     "aws-sdk": "^2.948.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
-    "vue-router": "^3.5.2"
+    "vue-axios": "^3.2.4",
+    "vue-router": "^3.5.2",
+    "vue-upload-image": "^1.1.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",

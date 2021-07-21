@@ -35,6 +35,7 @@
 <script>
 import { Auth, Hub } from 'aws-amplify'
 
+
 export default {
   name: 'app',
   data() {
