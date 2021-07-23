@@ -11,7 +11,7 @@
     "@aws-amplify/ui-vue": "^0.2.34",
     "@braid/vue-formulate": "^2.5.2",
     "aws-amplify": "^3.0.12",
-    "aws-sdk": "^2.948.0",
+    "aws-sdk": "^2.951.0",
     "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
