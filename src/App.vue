@@ -81,7 +81,9 @@ export default {
   text-decoration: none;
 }
 .sign-out {
-  width: 160px;
-  margin: 0 auto;
+    width: 160px;
+    position:relative;
+    top:0;
+    float:right;
 }
 </style>

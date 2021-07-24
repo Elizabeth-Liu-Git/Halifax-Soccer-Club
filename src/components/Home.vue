@@ -86,7 +86,7 @@ h1, h2 {
   opacity: 0;
 }
 
-.btn{
+.button{
   animation: blinker 2s linear infinite;
   border:5px;
   border-color: white;

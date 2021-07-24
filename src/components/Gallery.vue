@@ -47,7 +47,7 @@ export default {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: auto;
   height:auto;
 
 }
