@@ -11,7 +11,7 @@
       <button v-if="!uploadURL" @click="removeImage">Remove image</button>
       <button v-if="!uploadURL" @click="uploadImage">Upload image</button>
     </div>
-    <h2 v-if="uploadURL">Success! Image uploaded to bucket.</h2>
+    <h2 v-if="uploadURL">Success! Image uploaded to bucket, you will receive an email confirmation as well!</h2>
 </div>
 </template>
 
@@ -57,18 +57,14 @@ export default {
       reader.readAsDataURL(file)
     },
     removeImage: function () {
-      console.log('Remove clicked')
       this.image = ''
     },
     uploadImage: async function () {
-      console.log('Upload clicked')
       // Get the presigned URL
       const response = await axios({
         method: 'GET',
         url: API_ENDPOINT
       })
-      console.log('Response: ', response.data)
-      console.log('Uploading: ', this.image)
       let binary = atob(this.image.split(',')[1])
       let array = []
       for (var i = 0; i < binary.length; i++) {
