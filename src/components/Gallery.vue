@@ -28,8 +28,8 @@ export default {
    imageArray: [
      // to add more pics here
     'https://s3.amazonaws.com/picuploadsnew/1626998210906.jpg',
-     'https://picuploadsnew.s3.amazonaws.com/1626998881427.jpg',
-     'https://picuploadsnew.s3.amazonaws.com/1627071474177.jpg'
+     'https://picuploadsnew.s3.amazonaws.com/1628441860444.jpg',
+     'https://picuploadsnew.s3.amazonaws.com/1628444008698.jpg'
    ],
   }
  },
