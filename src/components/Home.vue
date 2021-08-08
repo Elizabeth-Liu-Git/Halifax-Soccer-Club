@@ -4,7 +4,6 @@
 
       <p class="fade-in-text">Panorama FC</p>
       <img class="logo" v-bind:src="srcLogo">;  
-        <button class='btn btn-dark' size = "lg" onclick="location.href='https://localhose.auth.us-east-1.amazoncognito.com/login?client_id=pomnfm0ad3ftsv9pdk06lch6d&response_type=code&scope=email+openid&redirect_uri=http://localhost:8080/login'"> Continue>> </button>
     </div>
 </template>
 
@@ -15,7 +14,6 @@ export default {
   name: 'Home',
   data: function() {
     return {
-
       src: require('../assets/backgroundSmall.jpeg'),
       srcLogo: require('../assets/Untitled-3.png'),
       loaded: false,
@@ -54,8 +52,6 @@ export default {
   height:auto;
 }
 
-
-
 .container {
   
   background-image: url('../assets/backgroundSmall.jpeg');
@@ -65,10 +61,6 @@ export default {
 -o-background-size:cover;
 background-size:cover;
 background-position:center;
-
-
-
-
 }
 
 h1, h2 {
@@ -90,7 +82,6 @@ h1, h2 {
   animation: blinker 2s linear infinite;
   border:5px;
   border-color: white;
- 
 }
 
 

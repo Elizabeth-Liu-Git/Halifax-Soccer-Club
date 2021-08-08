@@ -24,7 +24,7 @@ const MAX_IMAGE_SIZE = 1000000
 
 const API_ENDPOINT = 'https://5ix6fcr1ve.execute-api.us-east-1.amazonaws.com/default/getPresignedURL'
 
-
+// reference: AWS official tutorial video, video link: https://www.youtube.com/watch?v=mw_-0iCVpUc
 export default {
   name: 'Upload',
   data() {
@@ -42,7 +42,6 @@ export default {
       this.createImage(files[0])
     },
     createImage (file) {
-      // var image = new Image()
       let reader = new FileReader()
       reader.onload = (e) => {
         console.log('length: ', e.target.result.includes('data:image/jpeg'))

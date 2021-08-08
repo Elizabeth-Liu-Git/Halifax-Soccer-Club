@@ -39,17 +39,15 @@ export default {
 <style scoped>
 
 .h2{
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .slider{
-
   display: flex;
   margin-left: auto;
   margin-right: auto;
   width: auto;
   height:auto;
-
 }
 
 </style>
